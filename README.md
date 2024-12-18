@@ -1,74 +1,52 @@
-# Data Science Portfolio  
-**Welcome to my Data Science Portfolio!**  
+# Faster Payments Reconciliation
 
-This repository showcases my work across various data science projects, aligning with my BSc Data Science degree and workplace applications. Projects include exploratory data analysis (EDA), predictive modelling, and building ETL pipelines, with a focus on practical problem-solving and professional tools like SQL, Power BI, and Python.
+## Objective  
+The goal of this project was to reconcile Faster Payments statements provided by NatWest Bank with the internal ledger entries at C. Hoare & Co. Bank. This project aimed to automate the reconciliation process, ensuring accuracy, improving efficiency, and enhancing compliance with financial regulations.
 
----
+## Tools & Techniques  
+- **Tools**: SQL, Oracle Database, Microsoft SQL Server, Power BI  
+- **Techniques**: ETL Pipeline (Extract, Transform, Load), Data Cleaning, Data Validation, Reconciliation Reporting  
 
-## Projects  
-### 1. Faster Payments Reconciliation  
-- **Objective**: Automating reconciliation between NatWest bank statements and internal ledger data.  
-- **Tools**: SQL, Power BI, Oracle Database.  
-- **Highlights**:  
-   - Built an **ETL pipeline** to extract, clean, and compare data.  
-   - Reduced processing time by 40% and improved data quality.  
-- **Outcome**: Real-time reconciliation dashboard enabled better decision-making and compliance.  
-[Read More](./faster-payments-reconciliation/README.md)
+## Process  
+1. **Data Extraction**:  
+   - Extracted two distinct datasets:  
+      - **NatWest Statements**: Sourced via SQL queries from the Oracle database.  
+      - **Internal Ledger Data**: Queried from the bank's internal payments table.  
 
----
+2. **Data Transformation**:  
+   - Cleaned the extracted datasets by handling:  
+     - Duplicate entries  
+     - Missing values  
+     - Rejected and erroneous transactions  
+   - Standardised fields for alignment (e.g., date formats, transaction references).
 
-### 2. Customer Joining Team Dashboard  
-- **Objective**: Automate reporting for the Customer Joining team to track performance metrics.  
-- **Tools**: Power BI, Excel.  
-- **Highlights**:  
-   - Built interactive dashboards with drill-down functionality.  
-   - Enabled **data-driven decisions** for management by visualising key stats.  
-- **Outcome**: Improved efficiency and reduced manual reporting efforts.  
-[Read More](./customer-joining-dashboard/README.md)
+3. **Reconciliation Process**:  
+   - Compared the two datasets to match transactions and identify discrepancies.  
+   - Applied SQL-based matching logic to detect:  
+     - Entries with exact matches  
+     - Outstanding breaks (unmatched transactions)  
 
----
+4. **Data Loading and Reporting**:  
+   - Loaded the cleaned and reconciled data into **Power BI**.  
+   - Developed an interactive dashboard to monitor reconciliation progress and outstanding breaks.  
 
-### 3. Luxury Loan Portfolio Analysis  
-- **Objective**: Analyse luxury loan data to identify risk factors and optimise loan segmentation.  
-- **Tools**: Python, Jupyter Notebook.  
-- **Highlights**:  
-   - Conducted **EDA** with visualisations (histograms, boxplots).  
-   - Built a **Logistic Regression** model to predict loan defaults.  
-- **Outcome**: Key predictors identified for loan default rates, enhancing risk management.  
-[Read More](./luxury-loan-analysis/README.md)
+## Results  
+- **Efficiency Gains**: Processing time reduced by 40% through automation.  
+- **Improved Accuracy**: Enhanced data quality reduced discrepancies by identifying unmatched entries early.  
+- **Real-Time Insights**: Interactive Power BI dashboard enabled management to monitor the reconciliation process effectively.
 
----
+## Key Insights  
+- Most outstanding breaks were caused by timing differences and incomplete transaction details.  
+- Regular automation significantly reduced manual intervention, improving operational efficiency.
 
-### 4. Customer Churn Prediction  
-- **Objective**: Predict customer churn using machine learning techniques.  
-- **Tools**: Python, Logistic Regression, Excel.  
-- **Highlights**:  
-   - Analysed customer tenure, balance, and engagement as key churn factors.  
-   - Built a predictive model with **high accuracy**.  
-- **Outcome**: Recommendations provided to improve retention strategies.  
-[Read More](./customer-churn-prediction/README.md)
+## Recommendations  
+1. **Anomaly Detection**: Implement a machine learning model to identify potential discrepancies automatically.  
+2. **Data Lineage**: Improve transparency by documenting the data flow and transformation processes.  
+3. **Timing Adjustments**: Allow for reconciliation margins to accommodate cut-off delays in bank statements.  
+4. **Continuous Improvement**: Periodically audit the process to address new challenges and improve pipeline performance.  
 
----
-
-## Tools & Skills  
-- **Programming Languages**: Python, SQL  
-- **Tools**: Power BI, Excel, Oracle Database, Microsoft SQL Server  
-- **Techniques**:  
-   - Data Cleaning & Preprocessing  
-   - ETL Pipeline Development  
-   - Exploratory Data Analysis (EDA)  
-   - Predictive Modelling (Logistic Regression, Decision Trees)  
-   - Data Visualisation & Dashboards  
-
----
-
-## About Me  
-I am a Data Science student at **BPP University** completing a **Level 6 BSc in Data Science Integrated Degree**. This portfolio demonstrates my technical proficiency, practical skills, and alignment with professional workplace projects at **C. Hoare & Co. Bank**.
-
----
-
-## **Contact**  
-Feel free to explore my work and connect with me:  
-- **Email**: m.choudhury21@my.bpp.com  
-- **LinkedIn**: (https://www.linkedin.com/in/ishaqchoudhury)
-- **GitHub**: [GitHub Profile](https://github.com/ishaqc)  
+## Business Impact  
+This project aligns with the bank’s strategic goals of being **faster, simpler, and better** by:  
+- Reducing manual workload and errors.  
+- Providing accurate and real-time insights for decision-making.  
+- Ensuring compliance with financial regulations and data governance policies.  

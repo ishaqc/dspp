@@ -1,75 +1,69 @@
-# Data Science Professional Practice Portfolio  
-Welcome to my digital portfolio showcasing the skills, projects, and tools I have developed during my **BSc Data Science (Integrated Degree)** programme at **BPP University**.
+# Data Science Portfolio  
+**Welcome to my Data Science Portfolio!**  
 
-This portfolio highlights my technical expertise across the following modules:  
-- **Data Infrastructure and Tools**: Optimising and understanding the strengths of data systems.  
-- **Data Engineering**: Building ETL pipelines and automating workflows.  
-- **Data Visualisation and Dashboards**: Creating impactful dashboards for stakeholders.  
-- **Data Analytics**: Applying statistical techniques and predictive models for actionable insights.  
+This repository showcases my work across various data science projects, aligning with my BSc Data Science degree and workplace applications. Projects include exploratory data analysis (EDA), predictive modelling, and building ETL pipelines, with a focus on practical problem-solving and professional tools like SQL, Power BI, and Python.
 
 ---
 
-## **About Me**  
-I am a Data Science professional working in the operations department at **C. Hoare & Co. Bank**, Britain’s oldest private bank. My role involves reconciling operational accounts, optimising data processes, and implementing data-driven solutions to enhance decision-making across the bank. This repository demonstrates my practical work and learning outcomes achieved throughout my degree.  
+## Projects  
+### 1. Faster Payments Reconciliation  
+- **Objective**: Automating reconciliation between NatWest bank statements and internal ledger data.  
+- **Tools**: SQL, Power BI, Oracle Database.  
+- **Highlights**:  
+   - Built an **ETL pipeline** to extract, clean, and compare data.  
+   - Reduced processing time by 40% and improved data quality.  
+- **Outcome**: Real-time reconciliation dashboard enabled better decision-making and compliance.  
+[Read More](./faster-payments-reconciliation/README.md)
 
 ---
 
-## **Modules & Projects**  
-
-### **1. Data Infrastructure and Tools**  
-**Skills Demonstrated**:  
-- Developed a strong understanding of the strengths and limitations of the data ecosystem within my bank.  
-- Suggested optimisations to improve data flow, storage, and governance.  
-
-**Key Project**:  
-- **Optimising Faster Payment Reconciliation**: Leveraged Oracle SQL and Power BI to automate reconciliation processes and ensure real-time accuracy.  
-   - [Project Link](#)  
+### 2. Customer Joining Team Dashboard  
+- **Objective**: Automate reporting for the Customer Joining team to track performance metrics.  
+- **Tools**: Power BI, Excel.  
+- **Highlights**:  
+   - Built interactive dashboards with drill-down functionality.  
+   - Enabled **data-driven decisions** for management by visualising key stats.  
+- **Outcome**: Improved efficiency and reduced manual reporting efforts.  
+[Read More](./customer-joining-dashboard/README.md)
 
 ---
 
-### **2. Data Engineering**  
-**Skills Demonstrated**:  
-- Designed and implemented an **ETL pipeline** to extract, transform, and load data from multiple sources.  
-- Ensured robust data quality by conducting data audits and applying validation techniques.  
-
-**Key Project**:  
-- **Faster Payment ETL Pipeline**: Automated reconciliation using SQL queries, normalised data structures, and loaded outputs into Power BI dashboards.  
-   - [Project Link](#)  
-
----
-
-### **3. Data Visualisation and Dashboards**  
-**Skills Demonstrated**:  
-- Built interactive dashboards using **Microsoft Power BI** to visualise key metrics and trends.  
-- Delivered clear, actionable insights for management and operational teams.  
-
-**Key Project**:  
-- **Customer Joining Team Dashboard**: Automated reporting for the COO, enabling better tracking of onboarding metrics and enhancing operational efficiency.  
-   - [Project Link](#)  
+### 3. Luxury Loan Portfolio Analysis  
+- **Objective**: Analyse luxury loan data to identify risk factors and optimise loan segmentation.  
+- **Tools**: Python, Jupyter Notebook.  
+- **Highlights**:  
+   - Conducted **EDA** with visualisations (histograms, boxplots).  
+   - Built a **Logistic Regression** model to predict loan defaults.  
+- **Outcome**: Key predictors identified for loan default rates, enhancing risk management.  
+[Read More](./luxury-loan-analysis/README.md)
 
 ---
 
-### **4. Data Analytics**  
-**Skills Demonstrated**:  
-- Applied statistical techniques, including **logistic regression**, to predict outcomes and identify trends.  
-- Used **exploratory data analysis (EDA)** to understand data distributions and relationships.  
-
-**Key Project**:  
-- **Luxury Loan Portfolio Analysis**: Predicted loan defaults using logistic regression and feature engineering on Kaggle’s publicly available dataset.  
-   - [Project Link](#)  
-
----
-
-## **Skills Summary**  
-- **Programming Languages**: SQL, Python (Pandas, Matplotlib, Scikit-learn).  
-- **Tools**: Power BI, Oracle SQL, Microsoft SQL Server.  
-- **Techniques**: ETL pipelines, Machine Learning (Logistic Regression), Data Visualisation, Feature Engineering, Exploratory Data Analysis (EDA).  
-- **Data Governance**: Ensured compliance with **GDPR** and **DPA 2018** in all projects.  
+### 4. Customer Churn Prediction  
+- **Objective**: Predict customer churn using machine learning techniques.  
+- **Tools**: Python, Logistic Regression, Excel.  
+- **Highlights**:  
+   - Analysed customer tenure, balance, and engagement as key churn factors.  
+   - Built a predictive model with **high accuracy**.  
+- **Outcome**: Recommendations provided to improve retention strategies.  
+[Read More](./customer-churn-prediction/README.md)
 
 ---
 
-## **Future Aspirations**  
-I aim to continue developing my expertise in predictive modeling and advanced data pipelines. By leveraging machine learning and automation, I look forward to delivering scalable data-driven solutions to enhance operational efficiency at C. Hoare & Co. Bank.
+## Tools & Skills  
+- **Programming Languages**: Python, SQL  
+- **Tools**: Power BI, Excel, Oracle Database, Microsoft SQL Server  
+- **Techniques**:  
+   - Data Cleaning & Preprocessing  
+   - ETL Pipeline Development  
+   - Exploratory Data Analysis (EDA)  
+   - Predictive Modelling (Logistic Regression, Decision Trees)  
+   - Data Visualisation & Dashboards  
+
+---
+
+## About Me  
+I am a Data Science student at **BPP University** completing a **Level 6 BSc in Data Science Integrated Degree**. This portfolio demonstrates my technical proficiency, practical skills, and alignment with professional workplace projects at **C. Hoare & Co. Bank**.
 
 ---
 
